@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__items">
+          <li class="header__item selected">Home</li>
+          <li class="header__item" data-item="about">About me</li>
+          <li class="header__item" data-item="skills">Skills</li>
+          <li class="header__item" data-item="portfolio">Portfolio</li>
+          <li class="header__item" data-item="footer">Contacts</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="information">
+      <h1 class="information__name">Margo Smith</h1>
+      <div class="information__block">
+        <p class="information__profession">UX | UI designer from California</p>
+        <p class="information__years">24 years old</p>
+      </div>
+      <div class="information__image">
+        <img src="img/macbook.svg" alt="macbook">
+      </div>
+    </div>
+
+    <div class="about">
+      <h2 class="title">About me</h2>
+      <div class="about__image">
+        <img src="img/author.svg" alt="author">
+      </div>
+      <div class="about__description">
+        <p class="about__phrase">
+          Hi, I'm Margo – UX/UI designer from California.
+          I'm interested in design and everything connected with it
+        </p>
+        <p class="about__phrase">I'm studying at courses "Web and mobile design interfaces" in IT-Academy</p>
+        <p class="about__phrase">Ready to implement excellent projects with wonderful people.</p>
+      </div>
+    </div>
+
+    <div class="skills">
+      <h2 class="title">Skills</h2>
+      <div class="skills__blocks">
+        <div class="skills__block tool">
+          <img src="img/photoshop.svg" alt="Photoshop" class="tool__logo">
+          <div class="tool__name">
+            <p>Adobe</p>
+            <p>Photoshop</p>
+          </div>
+          <div class="tool__rating">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/star.svg" alt="star">
+          </div>
+        </div>
+
+        <div class="skills__block tool">
+          <img src="img/illustrator.svg" alt="Illustrator" class="tool__logo">
+          <div class="tool__name">
+            <p>Adobe</p>
+            <p>Illustrator</p>
+          </div>
+          <div class="tool__rating">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/star.svg" alt="star">
+            <img src="img/star.svg" alt="star">
+          </div>
+        </div>
+
+        <div class="skills__block tool">
+          <img src="img/after-effects.svg" alt="after-effects" class="tool__logo">
+          <div class="tool__name">
+            <p>Adobe</p>
+            <p>After Effects</p>
+          </div>
+          <div class="tool__rating">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/star.svg" alt="star">
+          </div>
+        </div>
+
+        <div class="skills__block tool">
+          <img src="img/figma.svg" alt="Figma" class="tool__logo">
+          <div class="tool__name">
+            <p>Figma</p>
+          </div>
+          <div class="tool__rating">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+            <img src="img/selected-star.svg" alt="selected-star">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <h2 class="title">Portfolio</h2>
+      <div class="portfolio__work work">
+        <img class="work__preview" src="img/work-1.svg" alt="work-1">
+        <a class="work__title" href="#">Online fashion store - Homepage</a>
+      </div>
+
+      <div class="portfolio__work work">
+        <img class="work__preview" src="img/work-2.svg" alt="work-2">
+        <a class="work__title" href="#">Helias Store - Concept</a>
+      </div>
+
+      <div class="portfolio__work work">
+        <img class="work__preview" src="img/work-3.svg" alt="work-3">
+        <a class="work__title" href="#">Hoang Nguen Landing Page - Concept</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h2 class="title">Contacts</h2>
+      <div class="footer__media">
+        <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.svg" alt="Linkedin"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt="Instagram"></a>
+        <a href="https://www.behance.net/" target="_blank"><img src="img/behance.svg" alt="Behance"></a>
+        <a href="https://dribbble.com/" target="_blank"><img src="img/dribbble.svg" alt="Dribbble"></a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
